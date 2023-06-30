@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace Budget.Models
 {
-    class budget_fields
-    {
-        internal class budget_item
+        internal class budget_fields
         {
             //nome
             [PrimaryKey, AutoIncrement]
@@ -22,5 +20,5 @@ namespace Budget.Models
             //cifra in €
             public string value { get; set; }
         }
-    }
+    
 }

@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Budget.Models.budget_fields;
 
 namespace Budget.Data
 {
@@ -23,18 +22,18 @@ namespace Budget.Data
 
             var response = Initialize_DB(); 
         }
-        public async Task Initialize_DB() 
+        private async Task Initialize_DB()
         {
-            await _connection.CreateTableAsync<budget_item>();
+            await _connection.CreateTableAsync<budget_fields>();
         }
 
-        public async Task<int> AggiungiBugetItem(budget_item item)
+        public async Task<int> AggiungiBugetItem(budget_fields item)
         {
             return await _connection.InsertAsync(item);
         }
-        public async Task<List<budget_item>> LeggiBugetItem()
+        public async Task<List<budget_fields>> LeggiBugetItem()
         {
-            return await _connection.Table<budget_item>().ToListAsync();
+            return await _connection.Table<budget_fields>().ToListAsync();
         }
 
 

@@ -1,13 +1,11 @@
 ﻿using Budget.Data;
 using Budget.Models;
-using System.Data;
-using static Budget.Models.budget_fields;
 
 namespace Budget
 {
     public partial class MainPage : ContentPage
     {
-        readonly Database database;
+         private Database database;
 
         public MainPage()
         {
@@ -18,8 +16,8 @@ namespace Budget
 
         private async void OnCounterClicked(object sender, EventArgs e)
         {
-            /* budget_item budget_fields = new budget_item
-             {
+            budget_fields budget_fields = new budget_fields
+            {
                  data = DateTime.Now.ToString(),
                  name = "Test",
                  description = "Desc",
@@ -33,7 +31,8 @@ namespace Budget
                      $"Id Generato da SQLite: {budget_fields.id}", "OK");
              else
                  await App.Current.MainPage.DisplayAlert("Ocane Possiede un cane", "Di chi è il cane?", "OK");
-            */
+            
+            
 
             output();
         }
