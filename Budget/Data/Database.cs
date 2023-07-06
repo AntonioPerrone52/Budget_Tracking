@@ -35,7 +35,18 @@ namespace Budget.Data
         {
             return await _connection.Table<budget_fields>().ToListAsync();
         }
-
+        public async Task<List<budget_fields>> Leggi_by_name(string s)
+        {
+            return await _connection.Table<budget_fields>().Where(t => t.name.Contains(s)).ToListAsync();
+        }
+        public async Task<List<budget_fields>> Leggi_by_type(string s)
+        {
+            return await _connection.Table<budget_fields>().Where(t => t.type.Contains(s)).ToListAsync();
+        }
+        public async Task<List<budget_fields>> Leggi_by_id(int s)
+        {
+            return await _connection.Table<budget_fields>().Where(t => t.id.Equals(s)).ToListAsync();
+        }
 
     }
 }
