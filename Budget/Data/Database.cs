@@ -47,6 +47,10 @@ namespace Budget.Data
         {
             return await _connection.Table<budget_fields>().Where(t => t.id.Equals(s)).ToListAsync();
         }
+        public async Task<int> rimuovi_tupla(int id)
+        {
+            return await _connection.Table<budget_fields>().Where(t => t.id.Equals(id)).DeleteAsync();
+        }
 
     }
 }

@@ -2,46 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Budget.MainPage">
-    <Grid HorizontalOptions="Center" VerticalOptions="Center" Margin="50">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <!-- Aggiungi ulteriori righe se necessario -->
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="Auto" />
-            <!-- Aggiungi ulteriori colonne se necessario -->
-        </Grid.ColumnDefinitions>
+    <Grid RowDefinitions="*,*"  ColumnDefinitions="*" Margin="50">
 
-        <Label Text="Nome:" FontSize="18" Grid.Row="0" Grid.Column="0" />
-        <Label Text="Tipo:" FontSize="18" Grid.Row="0" Grid.Column="1" />
+        <Grid Grid.Row="0" ColumnDefinitions="*,*" RowDefinitions="*,*,*,*,*,*,*,*,*">
+            <Label Text="INSERISCI SPESA" TextColor="#2196F3" FontSize="20" 
+            Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" 
+           />
 
-        <Entry x:Name="nome" Grid.Row="1" Grid.Column="0" />
-        <Entry x:Name="tipo" Grid.Row="1" Grid.Column="1" />
-        
-        <Label Text="Data:" FontSize="18" Grid.Row="2" Grid.Column="0" />
-        <Label Text="Valore:" FontSize="18" Grid.Row="2" Grid.Column="1" />
+            <Label Text="Nome:" FontSize="18" Grid.Row="1" Grid.Column="0" />
+        <Label Text="Tipo:" FontSize="18" Grid.Row="1" Grid.Column="1" />
 
-        <Entry x:Name="data" Grid.Row="3" Grid.Column="0" />
-        <Entry x:Name="valore" Grid.Row="3" Grid.Column="1" />
+        <Entry x:Name="nome" Grid.Row="2" Grid.Column="0" />
+        <Entry x:Name="tipo" Grid.Row="2" Grid.Column="1" />
 
-        <Label Text="Descrizione:" FontSize="18" Grid.Row="4" Grid.Column="0" />
+        <Label Text="Data:" FontSize="18" Grid.Row="3" Grid.Column="0" />
+        <Label Text="Valore:" FontSize="18" Grid.Row="3" Grid.Column="1" />
 
-        <Entry x:Name="descrizione" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" />
+        <DatePicker x:Name="data" Grid.Row="4" Grid.Column="0" />
+        <Entry x:Name="valore" Grid.Row="4" Grid.Column="1" />
+
+            <Label Text="Descrizione:" FontSize="18" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" />
+
+        <Entry x:Name="descrizione" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" />
 
         <!-- Ripeti il modello per le righe successive -->
 
         <Button x:Name="SubmitButton" Text="Invia" IsEnabled="True" Clicked="SubmitButton_Clicked" 
             BackgroundColor="#2196F3" TextColor="White" FontSize="18" CornerRadius="5" HeightRequest="50"
-            Grid.Row="6" Grid.ColumnSpan="2" HorizontalOptions="Center" 
+            Grid.Row="7" Grid.ColumnSpan="2" HorizontalOptions="Center" 
             Margin="0,20,0,0" />
 
+
+
+        </Grid>
+        <!-- Table below the form -->
+        <Grid Grid.Row="1" ColumnDefinitions="*,*,*,*,*" x:Name="grid_" RowDefinitions="*,*,*,*,*">
+
+           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="0" /> -->
+           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="1" /> -->
+           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="2" /> -->
+           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="3" /> -->
+           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="4" /> -->
+        </Grid>
     </Grid>
 
 
