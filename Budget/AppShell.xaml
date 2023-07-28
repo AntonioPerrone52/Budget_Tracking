@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Budget.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Budget"
+    Shell.FlyoutBehavior="Flyout">
+
+    <FlyoutItem Title="MainPage">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="statistiche">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate local:statistiche}" />
+        </Tab>
+    </FlyoutItem>
+</Shell>

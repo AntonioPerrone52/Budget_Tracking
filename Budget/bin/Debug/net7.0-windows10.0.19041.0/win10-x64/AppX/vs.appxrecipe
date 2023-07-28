@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>ed5bd919-1617-4522-9194-079cf3483e74</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\Perrone Build\source\repos\Budget\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>AF8DB948BB22A7FA83E76CFECD723E4B3453BCD230962E55E4E39A4B1D39F431</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ed5bd919-1617-4522-9194-079cf3483e74_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ed5bd919-1617-4522-9194-079cf3483e74_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,28 +27,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Perrone Build\source\repos\Budget\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-29T15:28:18.645</Modified>
+      <Modified>2023-07-26T14:54:57.288</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-29T15:28:18.292</Modified>
+      <Modified>2023-07-26T14:54:56.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Budget.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Budget.runtimeconfig.json">
       <PackagePath>Budget.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-29T13:51:40.978</Modified>
+      <Modified>2023-07-04T14:57:42.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Budget.dll">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Budget.dll">
       <PackagePath>Budget.dll</PackagePath>
-      <Modified>2023-06-29T15:28:17.034</Modified>
+      <Modified>2023-07-26T14:54:55.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Budget.exe</PackagePath>
-      <Modified>2023-06-29T15:28:17.057</Modified>
+      <Modified>2023-07-26T14:54:55.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -914,21 +914,25 @@
       <PackagePath>SQLite-net.dll</PackagePath>
       <Modified>2021-09-02T21:04:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.bundle_e_sqlcipher\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
-      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
-      <Modified>2020-09-03T17:13:30.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.bundle_e_sqlcipher\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
       <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
       <Modified>2020-09-03T17:13:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.bundle_green\2.1.5\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2023-05-19T20:36:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.core\2.1.5\lib\netstandard2.0\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
-      <Modified>2020-09-03T17:13:04.000</Modified>
+      <Modified>2023-05-19T20:34:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.0.4\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
       <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
       <Modified>2020-09-03T17:13:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.5\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2023-05-19T20:34:34.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -942,13 +946,13 @@
       <PackagePath>e_sqlcipher.dll</PackagePath>
       <Modified>2020-01-15T20:54:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.5\runtimes\win-x64\native\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
-      <Modified>2020-08-17T14:38:20.000</Modified>
+      <Modified>2023-05-19T20:29:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Budget.deps.json">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Budget.deps.json">
       <PackagePath>Budget.deps.json</PackagePath>
-      <Modified>2023-06-29T15:28:18.499</Modified>
+      <Modified>2023-07-26T14:54:57.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -962,239 +966,239 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-04-25T14:26:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-06-27T14:56:54.824</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-06-27T14:57:51.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-06-27T14:57:51.056</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-06-27T14:57:51.075</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-06-27T14:57:51.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-06-27T14:57:51.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-06-27T14:56:54.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-06-27T14:56:54.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-06-27T14:57:51.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-06-27T14:57:51.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-06-27T14:57:51.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-06-27T14:57:51.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-06-27T14:57:51.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-06-27T14:57:51.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-06-27T14:57:51.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-06-27T14:57:51.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-06-27T14:57:51.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-06-27T14:57:51.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-06-27T14:57:51.318</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-06-27T14:57:51.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-06-27T14:57:51.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-06-27T14:57:51.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-06-27T14:57:51.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-06-27T14:57:51.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-06-27T14:57:51.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-06-27T14:57:51.268</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-06-27T14:57:51.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-06-27T14:57:51.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-06-27T14:57:51.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-06-27T14:57:51.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-06-27T14:57:51.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-06-27T14:57:51.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-06-27T14:57:51.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-06-27T14:57:51.288</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-06-27T14:57:51.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-06-27T14:57:51.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-06-27T14:57:51.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-06-27T14:57:51.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-06-27T14:57:51.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-06-27T14:57:51.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-06-27T14:57:51.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-06-27T14:57:51.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-06-27T14:57:51.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-06-27T14:57:51.357</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-06-27T14:57:51.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-06-27T14:57:51.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-06-27T14:57:51.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-06-27T14:57:51.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-06-27T14:57:51.339</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-06-27T14:57:51.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-06-27T14:57:51.402</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-06-27T14:57:51.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-06-27T14:57:51.420</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-06-27T14:57:51.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-06-27T14:57:51.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-06-27T14:57:51.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-06-27T14:57:51.316</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-06-27T14:57:51.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Perrone Build\source\repos\Budget\Budget_Tracking\Budget\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-06-27T14:57:51.370</Modified>
     </AppxPackagedFile>

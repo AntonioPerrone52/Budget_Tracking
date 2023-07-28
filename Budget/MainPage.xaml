@@ -1,33 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Budget.MainPage">
+             x:Class="Budget.MainPage"
+             Title="Home">
+
     <Grid RowDefinitions="*,*"  ColumnDefinitions="*" Margin="50">
 
         <Grid Grid.Row="0" ColumnDefinitions="*,*" RowDefinitions="*,*,*,*,*,*,*,*,*">
-            <Label Text="INSERISCI SPESA" TextColor="#2196F3" FontSize="20" 
-            Grid.Row="0" Grid.ColumnSpan="2" HorizontalOptions="Center" 
+            <Label Text="SPESA" TextColor="#2196F3" FontSize="20" 
+            Grid.Row="0"  HorizontalOptions="Center" 
            />
+            <Picker x:Name="mese_din" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Center" SelectedIndexChanged="mese_din_SelectedIndexChanged"
+                    TextColor="#2196F3" FontSize="17" HeightRequest="38">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Gennaio</x:String>
+                        <x:String>Febbraio</x:String>
+                        <x:String>Marzo</x:String>
+                        <x:String>Aprile</x:String>
+                        <x:String>Maggio</x:String>
+                        <x:String>Giugno</x:String>
+                        <x:String>Luglio</x:String>
+                        <x:String>Agosto</x:String>
+                        <x:String>Settembre</x:String>
+                        <x:String>Ottobre</x:String>
+                        <x:String>Novembre</x:String>
+                        <x:String>Dicembre</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+
 
             <Label Text="Nome:" FontSize="18" Grid.Row="1" Grid.Column="0" />
-        <Label Text="Tipo:" FontSize="18" Grid.Row="1" Grid.Column="1" />
+            <Label Text="Tipo:" FontSize="18" Grid.Row="1" Grid.Column="1" />
 
-        <Entry x:Name="nome" Grid.Row="2" Grid.Column="0" />
-        <Entry x:Name="tipo" Grid.Row="2" Grid.Column="1" />
+            <Entry x:Name="nome" Grid.Row="2" Grid.Column="0" />
+            <Entry x:Name="tipo" Grid.Row="2" Grid.Column="1" />
 
-        <Label Text="Data:" FontSize="18" Grid.Row="3" Grid.Column="0" />
-        <Label Text="Valore:" FontSize="18" Grid.Row="3" Grid.Column="1" />
+            <Label Text="Data:" FontSize="18" Grid.Row="3" Grid.Column="0" />
+            <Label Text="Valore:" FontSize="18" Grid.Row="3" Grid.Column="1" />
 
-        <DatePicker x:Name="data" Grid.Row="4" Grid.Column="0" />
-        <Entry x:Name="valore" Grid.Row="4" Grid.Column="1" />
+            <DatePicker x:Name="data" Grid.Row="4" Grid.Column="0" />
+            <Entry x:Name="valore" Grid.Row="4" Grid.Column="1" />
 
             <Label Text="Descrizione:" FontSize="18" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" />
 
-        <Entry x:Name="descrizione" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" />
+            <Entry x:Name="descrizione" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" />
 
-        <!-- Ripeti il modello per le righe successive -->
+            <!-- Ripeti il modello per le righe successive -->
 
-        <Button x:Name="SubmitButton" Text="Invia" IsEnabled="True" Clicked="SubmitButton_Clicked" 
+            <Button x:Name="SubmitButton" Text="Invia" IsEnabled="True" Clicked="SubmitButton_Clicked" 
             BackgroundColor="#2196F3" TextColor="White" FontSize="18" CornerRadius="5" HeightRequest="50"
             Grid.Row="7" Grid.ColumnSpan="2" HorizontalOptions="Center" 
             Margin="0,20,0,0" />
@@ -38,15 +60,11 @@
         <!-- Table below the form -->
         <Grid Grid.Row="1" ColumnDefinitions="*,*,*,*,*" x:Name="grid_" RowDefinitions="*,*,*,*,*">
 
-           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="0" /> -->
-           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="1" /> -->
-           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="2" /> -->
-           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="3" /> -->
-           <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="4" /> -->
+            <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="0" /> -->
+            <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="1" /> -->
+            <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="2" /> -->
+            <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="3" /> -->
+            <!-- <Label Text="00/23: 00,00€" Grid.Row="0" Grid.Column="4" /> -->
         </Grid>
     </Grid>
-
-
-
-
 </ContentPage>

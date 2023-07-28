@@ -55,4 +55,22 @@
 		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.5" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="App.xaml.cs">
+	    <DependentUpon>App.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="statistiche.xaml.cs">
+	    <DependentUpon>statistiche.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="AppShell.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="statistiche.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

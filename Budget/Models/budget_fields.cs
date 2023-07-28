@@ -12,6 +12,7 @@ namespace Budget.Models
             //nome
             [PrimaryKey, AutoIncrement]
             public int id {  get; set; }
+            public int mese { get; set; }
             public string name { get; set; }
             public string data { get; set; }
             public string description { get; set; }

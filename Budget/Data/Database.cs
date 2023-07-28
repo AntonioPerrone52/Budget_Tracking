@@ -43,9 +43,14 @@ namespace Budget.Data
         {
             return await _connection.Table<budget_fields>().Where(t => t.type.Contains(s)).ToListAsync();
         }
-        public async Task<List<budget_fields>> Leggi_by_id(int s)
+        public async Task<List<budget_fields>> read_by_month(int month)
         {
-            return await _connection.Table<budget_fields>().Where(t => t.id.Equals(s)).ToListAsync();
+            return await _connection.Table<budget_fields>().Where(t => t.mese.Equals(month)).ToListAsync();
+        }
+
+        public async Task<budget_fields> Leggi_by_id(int s)
+        {
+            return await _connection.Table<budget_fields>().Where(t => t.id.Equals(s)).FirstAsync();
         }
         public async Task<int> rimuovi_tupla(int id)
         {
